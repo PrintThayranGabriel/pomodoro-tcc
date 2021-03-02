@@ -1,0 +1,15 @@
+{
+    "name": "Pomodoro APP",
+    "short_name": "Pomodoro",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#3c4262",
+    "background_color": "#333853",
+    "icons": [
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
