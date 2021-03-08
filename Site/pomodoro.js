@@ -23,6 +23,7 @@ function startPomodoro() {
                 document.getElementById("minutes").innerText = "10";
             }
             clearInterval(focusInterval);
+            alert("Seu tempo de foco acabou, vá dar uma relaxada")
             breakTimeCounting();
         }
 
@@ -76,6 +77,7 @@ function resetar() {
     document.getElementById("seconds-break").innerText = defaultSecondsBreakValue;
     document.getElementById("minutes-focus").innerText = defaultMinutesFocusValue;
     document.getElementById("seconds-focus").innerText = defaultSecondsFocusValue;
+    alert("Seu descanso acabou, foque novamente na sua tarefa :) ")
 }
 
 function pause() {

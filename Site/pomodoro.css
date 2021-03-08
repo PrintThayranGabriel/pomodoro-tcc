@@ -19,10 +19,14 @@ body {
   background-color: #FFF;
   display: flex;
 }
-
+.container{
+  padding-top: 30px;
+  padding: 50px;
+}
 main {
   padding: 1em;
-  margin: auto;
+  margin-left: 25%;
+  margin-top: -25px;
   width: min(90vw, 800px);
   height: 90vh;
   display: flex;
@@ -32,6 +36,7 @@ main {
   border-radius: 30px;
   background: linear-gradient(90deg, rgba(154,32,10,1) 0%, rgba(243,33,0,1) 100%);
 }
+
 
 h1 {
   font-weight: bold;
@@ -130,6 +135,7 @@ overflow:hidden;
 transition:width .05s linear;
 -webkit-transform:translateZ(0) scale(1,1);
 z-index:1000;
+position: fixed;
 }
 
 .main-menu>ul {
@@ -220,3 +226,15 @@ background-color:#FFF;
   src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
 }
 /**---------------------------------*/
+.content{
+  padding-left: 200px;
+  padding-top: 70px;
+  margin-left: 15%;
+}
+
+.text-content{
+  width: 20px;
+}
+.title-content{
+  font-family: Concert One;
+}
