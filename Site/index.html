@@ -1,135 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="canonical" href="https://pomodorothayran.web.app/"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icones/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icones/favicon-16x16.png">
+    <link rel="manifest" href="images/icones/site.webmanifest">
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pomodoro Timer teste</title>
-    <link rel="shortcut icon" href="#" />
+    <title>Pomodoro Timer</title>
+    
   </head>
   <link rel="stylesheet" href="pomodoro.css" />
   <body>
     
     <div class="area"></div>
-    <nav class="main-menu">
-      <ul>
-          <li>
-              <a href="http://justinfarrow.com">
-                  <i class="fa fa-user-circle fa-2x"></i>
-                  <span class="nav-text">
-                      Seu perfil
-                  </span>
-              </a>
-            
-          </li>
-          <li class="has-subnav">
-              <a href="#">
-                  <i class="fa fa-line-chart fa-2x"></i>
-                  <span class="nav-text">
-                      estatísticas
-                  </span>
-              </a>
+      <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="http://justinfarrow.com">
+                    <i class="fa fa-user-circle fa-2x"></i>
+                    <span class="nav-text">
+                        Seu perfil
+                    </span>
+                </a>
               
-          </li>
-          <li class="has-subnav">
-              <a href="#">
-                 <i class="fa fa-info-circle fa-2x"></i>
-                  <span class="nav-text">
-                      Sobre o pomodoro
-                  </span>
-              </a>
-              
-          </li>   
-      </ul>
+            </li>
+            <li class="has-subnav">
+                <a href="#">
+                    <i class="fa fa-line-chart fa-2x"></i>
+                    <span class="nav-text">
+                        estatísticas
+                    </span>
+                </a>
+                
+            </li>
+            <li class="has-subnav">
+                <a href="#">
+                  <i class="fa fa-info-circle fa-2x"></i>
+                    <span class="nav-text">
+                        Sobre o pomodoro
+                    </span>
+                </a>
+                
+            </li>   
+        </ul>
 
-      <ul class="logout">
-          <li>
-             <a href="#">
-                   <i class="fa fa-power-off fa-2x"></i>
-                  <span class="nav-text">
-                      Sair
-                  </span>
-              </a>
-          </li>  
-      </ul>
-  </nav>
+        <ul class="logout">
+            <li>
+              <a href="#">
+                    <i class="fa fa-power-off fa-2x"></i>
+                    <span class="nav-text">
+                        Sair
+                    </span>
+                </a>
+            </li>  
+        </ul>
+    </nav>
     <div class="container">
-    <main>
-      <h1>Pomodoro Timer</h1>
-      <a id="login" href="login/login.html">Salvar estatísticas</a>
-      <div class="timespace">
-        <p id="minutes-focus">25</p>
-        <p>:</p>
-        <p id="seconds-focus">00</p>
-      </div>
+      <main>
+        <h1>Pomodoro Timer</h1>
+        <a id="login" href="login/login.html">Salvar estatísticas</a>
+        <div class="timespace">
+          <p id="minutes-focus">25</p>
+          <p>:</p>
+          <p id="seconds-focus">00</p>
+        </div>
 
-      <div class="focus">
-        <button id="up-focus">Aumentar</button>
-        <button id="down-focus">Diminuir</button>
-      </div>
+        <div class="focus">
+          <button id="up-focus">Aumentar</button>
+          <button id="down-focus">Diminuir</button>
+        </div>
 
-      <div class="timespace">
-        <p id="minutes-break">5</p>
-        <p>:</p>
-        <p id="seconds-break">00</p>
-      </div>
+        <div class="timespace">
+          <p id="minutes-break">5</p>
+          <p>:</p>
+          <p id="seconds-break">00</p>
+        </div>
 
-      <div class="focus">
-        <button id="up-break">Aumentar</button>
-        <button id="down-break">Diminuir</button>
-      </div>
+        <div class="focus">
+          <button id="up-break">Aumentar</button>
+          <button id="down-break">Diminuir</button>
+        </div>
 
-      <div class="focus">
-        <button id="start">Começar</button>
-        <button id="pause">Pausar</button>
-        <button id="reset">Reiniciar</button>
-      </div>
+        <div class="focus">
+          <button id="start">Começar</button>
+          <button id="pause">Pausar</button>
+          <button id="reset">Reiniciar</button>
+        </div>
+        
+        
+      </main>
       
-    </main>
-    <div class="content">
-      
-      <h2 class="title-content">Oque é o pomodoro timer</h2>
-      
+      <div class="content">
+        
+        <h2 class="title-content">Oque é o pomodoro timer</h2>
+        
 
-          Pomofocus é um temporizador pomodoro personalizável que funciona no desktop e navegador móvel.<br>
-          O objetivo deste aplicativo é ajudá-lo a se concentrar em qualquer tarefa em que você esteja <br>
-          trabalhando, como estudo, escrita ou codificação. Este app é inspirado na <a target="_blank" href="https://www.youtube.com/watch?v=hfxfJ7Qa4sg&ab_channel=IlustradaMente">Técnica Pomodoro</a>, <br>
-          que é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo.<br><br><br>
+          <p id="text-content">
+            Pomofocus é um temporizador pomodoro personalizável que funciona no desktop e navegador móvel.<br>
+            O objetivo deste aplicativo é ajudá-lo a se concentrar em qualquer tarefa em que você esteja <br>
+            trabalhando, como estudo, escrita ou codificação. Este app é inspirado na <a target="_blank" href="https://www.youtube.com/watch?v=hfxfJ7Qa4sg&ab_channel=IlustradaMente">Técnica Pomodoro</a>, <br>
+            que é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo.<br><br><br>
+          
 
-          Para mais informações:<br><br>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hfxfJ7Qa4sg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
+            Para mais informações:<br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hfxfJ7Qa4sg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
 
-      <h2 class="title-content">O que é a Técnica Pomodoro?</h2>
-      
-          A Técnica Pomodoro é criada por Francesco Cirillo para uma forma mais produtiva de trabalhar <br>
-          e estudar. A técnica usa um temporizador para dividir o trabalho em intervalos, tradicionalmente <br>
-          com 25 minutos de duração, separados por intervalos curtos. Cada intervalo é conhecido como pomodoro,<br>
-          da palavra italiana para "tomate", depois do temporizador de cozinha em forma de tomate que Cirillo<br>
-          usou como estudante universitário.<br>
-      
+          
 
-      <h2 class="title-content">Como usar a técnica Pomodoro?
-      </h2>
-      
-          01- Adicione tarefas para trabalhar hoje <br>
-          02- Definir pomodoros de estimativa (1 = 25min de trabalho) para cada tarefa <br>
-          03- Selecione uma tarefa para trabalhar <br>
-          04- Inicie o temporizador e foque na tarefa por 25 minutos <br>
-          05- Faça uma pausa por 5 minutos quando o alarme tocar, volte ao passo 04 <br>
-      
+        <h2 class="title-content">O que é a Técnica Pomodoro?</h2>
+        
+            <p id="text-content">
+              A Técnica Pomodoro é criada por Francesco Cirillo para uma forma mais produtiva de trabalhar <br>
+              e estudar. A técnica usa um temporizador para dividir o trabalho em intervalos, tradicionalmente <br>
+              com 25 minutos de duração, separados por intervalos curtos. Cada intervalo é conhecido como pomodoro,<br>
+              da palavra italiana para "tomate", depois do temporizador de cozinha em forma de tomate que Cirillo<br>
+              usou como estudante universitário.<br><br>
+            </p>
 
-      
-  
-</div>
+        <h2 class="title-content">Como usar a técnica Pomodoro?
+        </h2>
+        
+            <p id="text-content">
+              01- Adicione tarefas para trabalhar hoje <br>
+              02- Definir pomodoros de estimativa (1 = 25min de trabalho) para cada tarefa <br>
+              03- Selecione uma tarefa para trabalhar <br>
+              04- Inicie o temporizador e foque na tarefa por 25 minutos <br>
+              05- Faça uma pausa por 5 minutos quando o alarme tocar, volte ao passo 04 <br><br><br>
+            </p>
+            <div class="ads">
+              <img width="100%" src="images/ad2.png">
+            </div>
+      </div>    
+    </div>
 
-  </div>
+    
     
     
     <script src="https://use.fontawesome.com/c128167419.js"></script>

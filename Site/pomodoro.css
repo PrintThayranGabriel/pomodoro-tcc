@@ -232,8 +232,8 @@ background-color:#FFF;
   margin-left: 15%;
 }
 
-.text-content{
-  width: 20px;
+.content p{
+  font-size: 20px;
 }
 .title-content{
   font-family: Concert One;
