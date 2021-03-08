@@ -4,16 +4,61 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="canonical" href="https://pomodorothayran.web.app/"> 
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pomodoro Timer</title>
+    <title>Pomodoro Timer teste</title>
     <link rel="shortcut icon" href="#" />
   </head>
   <link rel="stylesheet" href="pomodoro.css" />
   <body>
+    
+    <div class="area"></div>
+    <nav class="main-menu">
+      <ul>
+          <li>
+              <a href="http://justinfarrow.com">
+                  <i class="fa fa-user-circle fa-2x"></i>
+                  <span class="nav-text">
+                      Seu perfil
+                  </span>
+              </a>
+            
+          </li>
+          <li class="has-subnav">
+              <a href="#">
+                  <i class="fa fa-line-chart fa-2x"></i>
+                  <span class="nav-text">
+                      estatísticas
+                  </span>
+              </a>
+              
+          </li>
+          <li class="has-subnav">
+              <a href="#">
+                 <i class="fa fa-info-circle fa-2x"></i>
+                  <span class="nav-text">
+                      Sobre o pomodoro
+                  </span>
+              </a>
+              
+          </li>   
+      </ul>
+
+      <ul class="logout">
+          <li>
+             <a href="#">
+                   <i class="fa fa-power-off fa-2x"></i>
+                  <span class="nav-text">
+                      Sair
+                  </span>
+              </a>
+          </li>  
+      </ul>
+  </nav>
     <main>
       <h1>Pomodoro Timer</h1>
       <a id="login" href="login/login.html">Salvar estatísticas</a>
@@ -45,6 +90,8 @@
         <button id="reset">Reiniciar</button>
       </div>
     </main>
+    
+    <script src="https://use.fontawesome.com/c128167419.js"></script>
     <script src="pomodoro.js"></script>
   </body>
 </html>
