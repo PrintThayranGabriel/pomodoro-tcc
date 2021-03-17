@@ -121,6 +121,8 @@ function diminuirBreak() {
     }
 }
 
+
+
 document.querySelector("#start").addEventListener("click", startPomodoro);
 document.querySelector("#reset").addEventListener("click", resetar);
 document.querySelector("#up-focus").addEventListener("click", aumentarFocus);
