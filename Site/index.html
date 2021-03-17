@@ -18,7 +18,7 @@
       <nav>
         <ul>
           <li>
-          <img src="images/icones/favicon-32x32.png">
+          <img src="images/Logo.png" width="195px">
           </li>
           <li>
             <a href="#">Estatísticas</a>
@@ -40,26 +40,22 @@
         <h1>Pomodoro Timer</h1>
         <a id="login" href="login/login.html">Salvar estatísticas</a>
         <div class="timespace">
+
+          <button id="up-focus">+</button>
           <p id="minutes-focus">25</p>
           <p>:</p>
           <p id="seconds-focus">00</p>
-        </div>
-
-        <div class="focus">
-          <button id="up-focus">Aumentar</button>
-          <button id="down-focus">Diminuir</button>
+          <button id="down-focus">-</button>
         </div>
 
         <div class="timespace">
-          <p id="minutes-break">5</p>
+          <button id="up-break">+</button>
+          <p id="minutes-break">05</p>
           <p>:</p>
           <p id="seconds-break">00</p>
+          <button id="down-break">-</button>
         </div>
 
-        <div class="focus">
-          <button id="up-break">Aumentar</button>
-          <button id="down-break">Diminuir</button>
-        </div>
 
         <div class="focus">
           <button id="start">Começar</button>
@@ -72,100 +68,71 @@
       
       <div class="content">
 
-        <div class="features">
+        <div class="grid-container2">
+          <div class="ladoesquerdo">
+            <h2 class="title-content">Oque é o pomodoro timer</h2>
+            <p id="text-content">
+              Pomofocus é um temporizador pomodoro personalizável que funciona no desktop e navegador móvel.<br>
+              O objetivo deste aplicativo é ajudá-lo a se concentrar em qualquer tarefa em que você esteja <br>
+              trabalhando, como estudo, escrita ou codificação. Este app é inspirado na <a target="_blank" href="https://www.youtube.com/watch?v=hfxfJ7Qa4sg&ab_channel=IlustradaMente">Técnica Pomodoro</a>, <br>
+              que é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo.<br><br><br></p>
+          </div>
 
+          <div class="ladodireito">
+            <h2 id="titulo2">Assista ao vídeo:</h2> <br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hfxfJ7Qa4sg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="features">
           <div class="grid-container">
-            
+            <div class="titulo">
+              <h2 id="titulo">Como usar a técnica?</h2>
+            </div>
             <div class="area1">
               <div class="card">
-                <img src="images/features/1.png" alt="" width="100px">
-                <h2>Técnica pomodoro</h2>
-                <p>Lorem ipsum</p>
+                <h2>01 - Liste</h2>
+                <p>Crie uma lista com as atividade do dia</p>
               </div>
             </div>
 
             <div class="area2">
               <div class="card">
-                <img src="images/features/2.png" alt="" width="100px">
-                <h2>Técnica pomodoro</h2>
-                <p>Lorem ipsum</p>
+                <h2>02 - Defina</h2>
+                <p>Definir pomodoros de estimativa<br> (1 = 25min de trabalho) para cada tarefa</p>
               </div>
             </div>
 
             <div class="area3">
               <div class="card">
-                <img src="images/features/3.png" alt="" width="100px">
-                <h2>Técnica pomodoro</h2>
-                <p>Lorem ipsum</p>
+                <h2>03 - Escolha</h2>
+                <p>Escolha uma tarefa para focá-la</p>
               </div>
             </div>
 
             <div class="area4">
               <div class="card">
-                <img src="images/features/4.png" alt="" width="100px">
-                <h2>Técnica pomodoro</h2>
-                <p>Lorem ipsum</p>
+                <h2>04 - Inicie</h2>
+                <p>Inicie o temporizador e foque na tarefa por 25 minutos</p>
               </div>
             </div>
 
             <div class="area5">
               <div class="card">
-                <img src="images/features/5.png" alt="" width="100px">
-                <h2>Técnica pomodoro</h2>
-                <p>Lorem ipsum</p>
+                <h2>05 - Descanse</h2>
+                <p>Faça uma pausa por 5 minutos quando o alarme tocar, volte ao passo 04
+                </p>
               </div>
             </div>
 
             <div class="area6">
               <div class="card">
-                <img src="images/features/6.png" alt="" width="100px">
-                <h2>Técnica pomodoro</h2>
-                <p>Lorem ipsum</p>
+                <h2>06 - Repita</h2>
+                <p>Repita novamente a sessão até terminar seu trabalho</p>
               </div>
             </div>
           </div>
-            
         </div>
-        
-        <h2 class="title-content">Oque é o pomodoro timer</h2>
-        
-
-          <p id="text-content">
-            Pomofocus é um temporizador pomodoro personalizável que funciona no desktop e navegador móvel.<br>
-            O objetivo deste aplicativo é ajudá-lo a se concentrar em qualquer tarefa em que você esteja <br>
-            trabalhando, como estudo, escrita ou codificação. Este app é inspirado na <a target="_blank" href="https://www.youtube.com/watch?v=hfxfJ7Qa4sg&ab_channel=IlustradaMente">Técnica Pomodoro</a>, <br>
-            que é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo.<br><br><br>
-          
-
-            Para mais informações:<br><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/hfxfJ7Qa4sg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
-
-          
-
-        <h2 class="title-content">O que é a Técnica Pomodoro?</h2>
-        
-            <p id="text-content">
-              A Técnica Pomodoro é criada por Francesco Cirillo para uma forma mais produtiva de trabalhar <br>
-              e estudar. A técnica usa um temporizador para dividir o trabalho em intervalos, tradicionalmente <br>
-              com 25 minutos de duração, separados por intervalos curtos. Cada intervalo é conhecido como pomodoro,<br>
-              da palavra italiana para "tomate", depois do temporizador de cozinha em forma de tomate que Cirillo<br>
-              usou como estudante universitário.<br><br>
-            </p>
-
-        <h2 class="title-content">Como usar a técnica Pomodoro?
-        </h2>
-        
-            <p id="text-content">
-              01- Adicione tarefas para trabalhar hoje <br>
-              02- Definir pomodoros de estimativa (1 = 25min de trabalho) para cada tarefa <br>
-              03- Selecione uma tarefa para trabalhar <br>
-              04- Inicie o temporizador e foque na tarefa por 25 minutos <br>
-              05- Faça uma pausa por 5 minutos quando o alarme tocar, volte ao passo 04 <br><br><br>
-            </p>
-            
-              <img width="100%" src="images/ad2.png">
-            </div>
       </div>    
     </div>
 

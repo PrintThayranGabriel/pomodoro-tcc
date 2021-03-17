@@ -27,6 +27,7 @@ header li{
 
 header img{
   padding-right: 50px;
+  padding-top: 10px;
 }
 
 header a{
@@ -177,7 +178,7 @@ button:focus {
     "area4 area5 area6";
 }
 
-.titulo { grid-area: titulo; }
+.titulo { grid-area: titulo; padding-top: 90px; text-align: center; }
 
 .area1 { grid-area: area1; }
 
@@ -190,3 +191,30 @@ button:focus {
 .area5 { grid-area: area5; }
 
 .area6 { grid-area: area6; }
+
+#titulo{
+  font-size: 40px;
+}
+#titulo2{
+  text-align: center;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "ladoesquerdo ladodireito";
+  font-family: Comfortaa;
+}
+
+.ladoesquerdo { grid-area: ladoesquerdo; padding: 70px; padding-top: 130px;}
+
+.ladodireito { grid-area: ladodireito; padding: 50px;}
+
+#up-focus{width: 70px;}
+
+#down-focus{width: 70px; margin-left: 25px;}
+
+#up-break{width: 70px;}
+
+#down-break{width: 70px; margin-left: 25px;}
