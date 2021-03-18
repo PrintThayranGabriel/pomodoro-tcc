@@ -4,9 +4,12 @@
 
  Preview da home:
  <img src="Site/images/screenshot.png">
- # Página de login
-  <img src="Site/images/screenshot2.jpeg">
 
+ # Página de login
+<img src="Site/images/screenshot2.jpeg">
+ 
+ # Dashboard
+<img src="Site/images/unknown.png">
 
 - [x] O usuário pode ver um temporizador por 25 minutos - a sessão de trabalho.
 
