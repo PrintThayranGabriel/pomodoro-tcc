@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{margin: 0px;}
+
+:root {
+    --fonte1: Concert One;
+    --fonte2: Comfortaa;
+  }
+
+nav{
+    background: #000;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    font-family: Concert One;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav{
+    padding: 17px;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "left right";
+  }
+  
+.left { 
+    grid-area: left; 
+
+}
+  
+.right { 
+    grid-area: right;
+    
+}
+
+#titulo{
+    font-family: Concert One;
+    padding-bottom: 20px;
+}
+
+#texto{
+    font-family: Comfortaa;
+    text-align: left;
+    padding-bottom: 20px;
+}
+  
+button{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 25px;
+    background: linear-gradient(90deg, rgba(154,32,10,1) 0%, rgba(243,33,0,1) 100%);
+}
+
+.grid-container2 {
+    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    background: yellow;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "area1 area2 are3";
+  }
+  
+  .area1 { 
+    grid-area: area1;
+    font-family: var(--fonte1);
+}
+  
+  .area2 { 
+    grid-area: area2;
+    font-family: var(--fonte1);
+}
+  
+  .are3 { 
+    grid-area: are3;
+    font-family: var(--fonte1);
+}
+
+.img{
+    float: left;
+}
+
+.txt{
+    float: right;
+}
