@@ -8,6 +8,11 @@
     --fonte2: Comfortaa;
   }
 
+html{
+    scroll-behavior: smooth;
+}
+
+  
 body{
    
 }
@@ -23,6 +28,27 @@ nav ul{
     list-style: none;
     padding: 20px;
 
+}
+
+#desenho{
+    animation:  5s animacaoBanner ease-in-out infinite;
+}
+
+
+
+@keyframes animacaoBanner {
+    0% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+    
+
+    
 }
 
 .nav{
@@ -42,6 +68,8 @@ nav ul{
     gap: 0px 0px;
     grid-template-areas:
       "left right";
+
+    margin-top: 40px;
   }
   
 .left { 
@@ -54,6 +82,7 @@ nav ul{
     grid-area: right;
     
 }
+
 
 #titulo{
     font-family: Concert One;
@@ -147,7 +176,10 @@ p{
 .title {
     grid-area: title; 
 }
-  
+.title h1{
+    font-size: 50px;
+}
+
 .web {
     grid-area: web;
     padding: 20px;
