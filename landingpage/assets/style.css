@@ -83,6 +83,9 @@ nav ul{
     
 }
 
+button label a{
+    color: #FFF;
+}
 
 #titulo{
     font-family: Concert One;
@@ -136,6 +139,7 @@ button{
 
 .img{
     float: left;
+    padding: 17px;
 }
 
 .txt{
