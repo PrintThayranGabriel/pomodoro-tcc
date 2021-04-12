@@ -42,7 +42,9 @@ header a{
   padding: 10px;
 }
 
-button{/*-aplica por padrão a margin em todas tags input-*/
+/*-aplica por padrão a margin em todas tags input-*/
+
+button{
     border:none;
     margin:0 1em 0 0;
  }
